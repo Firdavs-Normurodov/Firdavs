@@ -1,12 +1,12 @@
 import React from "react";
-import siteNew from "../assets/images/react-tailwind.png"
+import siteNew from "../assets/images/react-tailwind.png";
 import site1 from "../assets/images/site1.png";
 import site2 from "../assets/images/site2.png";
 import site3 from "../assets/images/site3.png";
 import site4 from "../assets/images/site4.png";
 import site5 from "../assets/images/site5.png";
 import site6 from "../assets/images/site6.png";
-import site7 from "../assets/images/site7.png"
+import site7 from "../assets/images/site7.png";
 
 const Works = () => {
   return (
@@ -20,7 +20,7 @@ const Works = () => {
             Check out the websites I've made and use the codes too
           </p>
           <div className="mt-16 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
-          <div className="group relative mb-10">
+            <div className="group relative mb-10">
               <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
                 <img
                   src={siteNew}

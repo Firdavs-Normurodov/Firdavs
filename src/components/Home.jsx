@@ -9,7 +9,7 @@ const Home = () => {
       <div className=" md:w-2/4 text-center">
         <h2 className=" text-5xl text-lightText font-semibold leading-tight">
           I am a frontend
-          <span className="text-colorT"> Developer</span>
+          <span className=" text-colorT"> Developer</span>
         </h2>
         <p className=" text-lightText mt-5 text-start">
           Choose the right direction, make your dreams come true, if you also
