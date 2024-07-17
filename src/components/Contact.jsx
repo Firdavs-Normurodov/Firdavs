@@ -85,7 +85,7 @@ const Contact = () => {
                 Telephone number
               </dt>
               <dd className="mt-1 transition-all text-sm leading-6 text-lightText sm:col-span-2 sm:mt-0">
-                +998(91)222-73-93
+                +7(901)994-50-99
               </dd>
             </div>
           </dl>
