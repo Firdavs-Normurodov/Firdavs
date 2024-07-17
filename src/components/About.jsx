@@ -29,8 +29,8 @@ const About = () => {
             Briefly about myself
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            I am a frontend developer, I am 19 years old, I graduated from
-            frontend programming course in 2022, I am currently working on my
+            I am a fullstack developer, I am 19 years old, I graduated from
+            fullstack programming course in 2022, I am currently working on my
             own
           </p>
           <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">

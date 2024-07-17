@@ -8,7 +8,7 @@ const Home = () => {
     <div className=" min-h-[70vh] flex flex-col md:flex-row md:justify-between items-center md:mx-32 mx-5 mt-32">
       <div className=" md:w-2/4 text-center">
         <h2 className=" text-5xl text-lightText font-semibold leading-tight">
-          I am a frontend
+          I am a fullstack
           <span className=" text-colorT"> Developer</span>
         </h2>
         <p className=" text-lightText mt-5 text-start">

@@ -27,7 +27,7 @@ const Contact = () => {
                 Direction
               </dt>
               <dd className="mt-1 text-sm leading-6 text-lightText sm:col-span-2 sm:mt-0">
-                Frontend Developer
+                FullStack Developer
               </dd>
             </div>
             <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
@@ -43,7 +43,7 @@ const Contact = () => {
                 About
               </dt>
               <dd className="mt-1 text-sm leading-6 text-lightText sm:col-span-2 sm:mt-0">
-                Hello, my name is Normurodov Firdavs . I am a frontend
+                Hello, my name is Normurodov Firdavs . I am a fullstack
                 developer. I love building websites and web applications. I want
                 to become a powerful programmer in the future. I learn quickly,
                 I try to work with patience and intelligence. I try to do my job
@@ -67,7 +67,7 @@ const Contact = () => {
                 <a
                   className=" mx-2 hover:text-colorT"
                   target={"_blank"}
-                  href="https://t.me/Star271524"
+                  href="https://t.me/Nolik2427"
                 >
                   Telegram
                 </a>
