@@ -102,11 +102,10 @@ const About = () => {
                 </svg>
               </dt>
               <dd className="inline">
-                I've <span className="text-colorT">created Websites</span>{" "} and
-                <span className="text-colorT"> web
-                apps </span> 
-                 I've created in my portfolio so you can check them out and
-                enjoy the websites and web apps I've created.
+                I've <span className="text-colorT">created Websites</span> and
+                <span className="text-colorT"> web apps </span>
+                I've created in my portfolio so you can check them out and enjoy
+                the websites and web apps I've created.
               </dd>
             </div>
           </dl>
