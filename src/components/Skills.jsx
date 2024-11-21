@@ -48,6 +48,14 @@ const posts = [
     },
   },
   {
+    id: 18,
+    author: {
+      name: "Laravel",
+      role: "php framemork",
+      iconsUrl: "fa-brands fa-laravel text-5xl text-gray-600",
+    },
+  },
+  {
     id: 7,
     author: {
       name: "vue",
@@ -135,6 +143,7 @@ const posts = [
       iconsUrl: "fa-brands fa-linux text-5xl text-gray-600",
     },
   },
+
   // More posts...
 ];
 

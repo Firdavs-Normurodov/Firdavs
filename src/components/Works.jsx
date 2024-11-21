@@ -9,9 +9,17 @@ import site7 from "../assets/images/site7.png";
 import site8 from "../assets/images/site8.png";
 import site9 from "../assets/images/site9.png";
 import site10 from "../assets/images/site10.png";
+import laravel from "../assets/images/laravel.png";
 
 const callouts = [
   {
+    name: "My blog site",
+    description: "Laravel TailwindCss",
+    imageSrc: laravel,
+    imageAlt:
+      "Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.",
+    href: "https://github.com/Firdavs-Normurodov/my-blog",
+  },  {
     name: "web site",
     description: "ReactJS TailwindCss",
     imageSrc: site1,
