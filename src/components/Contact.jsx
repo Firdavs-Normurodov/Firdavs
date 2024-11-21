@@ -19,7 +19,7 @@ const Contact = () => {
                 Full name
               </dt>
               <dd className="mt-1 text-sm leading-6 text-lightText sm:col-span-2 sm:mt-0">
-                FIrdavs Normurodov
+                Firdavs Normurodov
               </dd>
             </div>
             <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
@@ -28,6 +28,13 @@ const Contact = () => {
               </dt>
               <dd className="mt-1 text-sm leading-6 text-lightText sm:col-span-2 sm:mt-0">
                 FullStack Developer
+              </dd>
+            </div><div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+              <dt className="text-sm font-medium leading-6  text-colorT">
+                My resume
+              </dt>
+              <dd className="mt-1 text-sm leading-6 text-lightText sm:col-span-2 sm:mt-0">
+                <a className="text-reset" href="https://drive.google.com/drive/folders/16IWNvufvgtK5bD32kKRFyqgZJrz0GJ7n?usp=drive_link" target="blank">My resume link</a>
               </dd>
             </div>
             <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
@@ -61,14 +68,14 @@ const Contact = () => {
                 <a
                   className=" hover:text-colorT"
                   target={"_blank"}
-                  href="https://www.instagram.com/night_star0724/"
+                  href="https://www.instagram.com/magic_star0724/"
                 >
                   Instagram
                 </a>
                 <a
                   className=" mx-2 hover:text-colorT"
                   target={"_blank"}
-                  href="https://t.me/Nolik2427"
+                  href="https://t.me/firdavs0724"
                 >
                   Telegram
                 </a>
