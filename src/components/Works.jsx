@@ -61,7 +61,7 @@ const callouts = [
     description: "react vite tailwindcss json-database",
     imageSrc: site10,
     imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
-    href: "https://eurolink-cg.com/",
+    href: "https://eurolink-cg-my.vercel.app/",
   },
   {
     name: "Miracle Shop",
