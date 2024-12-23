@@ -82,7 +82,7 @@ const callouts = [
     description: "Js jQuery Bootstrap Css Html",
     imageSrc: site8,
     imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
-    href: "https://training-courses.netlify.app//",
+    href: "https://firdavs-web-dev.netlify.app/",
   },
 ];
 
