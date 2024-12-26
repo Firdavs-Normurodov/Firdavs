@@ -7,11 +7,18 @@ import site5 from "../assets/images/site5.png";
 import site6 from "../assets/images/site6.png";
 import site7 from "../assets/images/site7.png";
 import site8 from "../assets/images/site8.png";
-import site9 from "../assets/images/site9.png";
 import site10 from "../assets/images/site10.png";
 import laravel from "../assets/images/laravel.png";
-
+import foods from "../assets/images/foods.png";
 const callouts = [
+  {
+    name: "Foods",
+    description: "React TailwindCss json-db",
+    imageSrc: foods,
+    imageAlt:
+      "Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.",
+    href: "https://foods-chi.vercel.app/",
+  },
   {
     name: "My blog site",
     description: "Laravel TailwindCss",
@@ -19,7 +26,8 @@ const callouts = [
     imageAlt:
       "Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.",
     href: "https://github.com/Firdavs-Normurodov/my-blog",
-  },  {
+  },
+  {
     name: "web site",
     description: "ReactJS TailwindCss",
     imageSrc: site1,
