@@ -10,7 +10,16 @@ import site8 from "../assets/images/site8.png";
 import site10 from "../assets/images/site10.png";
 import laravel from "../assets/images/laravel.png";
 import foods from "../assets/images/foods.png";
+import notes from "../assets/images/notes-app.png";
 const callouts = [
+  {
+    name: "Notes App",
+    description: "nodejs expresjs backend-application",
+    imageSrc: notes,
+    imageAlt:
+      "Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.",
+    href: "https://github.com/Firdavs-Normurodov/notes-app",
+  },
   {
     name: "Foods",
     description: "React TailwindCss json-db",
