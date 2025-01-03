@@ -11,7 +11,16 @@ import site10 from "../assets/images/site10.png";
 import laravel from "../assets/images/laravel.png";
 import foods from "../assets/images/foods.png";
 import notes from "../assets/images/notes-app.png";
+import notesApp from "../assets/images/notesfullstack.png";
 const callouts = [
+  {
+    name: "Notes FullStack App",
+    description: "nodejs expresjs react tailwindcss fullstack app",
+    imageSrc: notesApp,
+    imageAlt:
+      "Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.",
+    href: "https://github.com/Firdavs-Normurodov/notes-full-stacka-app",
+  },
   {
     name: "Notes App",
     description: "nodejs expresjs backend-application",
