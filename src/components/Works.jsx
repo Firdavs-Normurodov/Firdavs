@@ -11,7 +11,7 @@ import site10 from "../assets/images/site10.png";
 import laravel from "../assets/images/laravel.png";
 import foods from "../assets/images/foods.png";
 import notes from "../assets/images/notes-app.png";
-import notesApp from "../assets/images/notesfullstack.png";
+import notesApp from "../assets/images/notes-fulllstack.png";
 const callouts = [
   {
     name: "Notes FullStack App",
