@@ -11,7 +11,7 @@ import site10 from "../assets/images/site10.png";
 import laravel from "../assets/images/laravel.png";
 import foods from "../assets/images/foods.png";
 import notes from "../assets/images/notes-app.png";
-import notesApp from "../assets/images/notes-fulllstack.png";
+// import notesApp from "../assets/images/notes-fulllstack.png";
 import store from "../assets/images/store.png";
 
 const callouts = [
@@ -22,13 +22,13 @@ const callouts = [
     imageAlt: " img",
     href: "https://firdavs-web-shopping.onrender.com/",
   },
-  {
-    name: "Notes FullStack App",
-    description: "nodejs expresjs react tailwindcss fullstack app",
-    imageSrc: notesApp,
-    imageAlt: " img",
-    href: "https://github.com/Firdavs-Normurodov/notes-full-stacka-app",
-  },
+  //{
+  //   name: "Notes FullStack App",
+  //   description: "nodejs expresjs react tailwindcss fullstack app",
+  //   imageSrc: notesApp,
+  //   imageAlt: " img",
+  //   href: "https://github.com/Firdavs-Normurodov/notes-full-stacka-app",
+  // },
   {
     name: "Notes App",
     description: "nodejs expresjs backend-application",
