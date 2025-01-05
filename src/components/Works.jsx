@@ -12,13 +12,21 @@ import laravel from "../assets/images/laravel.png";
 import foods from "../assets/images/foods.png";
 import notes from "../assets/images/notes-app.png";
 import notesApp from "../assets/images/notes-fulllstack.png";
+import store from "../assets/images/store.png";
+
 const callouts = [
+  {
+    name: "ExpressJS ReactJS TailwindCSS FullStack App",
+    description: "nodejs expresjs react tailwindcss fullstack app",
+    imageSrc: store,
+    imageAlt: " img",
+    href: "https://firdavs-web-shopping.onrender.com/",
+  },
   {
     name: "Notes FullStack App",
     description: "nodejs expresjs react tailwindcss fullstack app",
     imageSrc: notesApp,
-    imageAlt:
-      "Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.",
+    imageAlt: " img",
     href: "https://github.com/Firdavs-Normurodov/notes-full-stacka-app",
   },
   {
