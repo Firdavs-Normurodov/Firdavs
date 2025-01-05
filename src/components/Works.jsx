@@ -16,7 +16,7 @@ import store from "../assets/images/store.png";
 
 const callouts = [
   {
-    name: "ExpressJS ReactJS TailwindCSS FullStack App",
+    name: "FullStack App",
     description: "nodejs expresjs react tailwindcss fullstack app",
     imageSrc: store,
     imageAlt: " img",
