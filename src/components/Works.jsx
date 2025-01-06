@@ -8,7 +8,7 @@ import site6 from "../assets/images/site6.png";
 import site7 from "../assets/images/site7.png";
 import site8 from "../assets/images/site8.png";
 import site10 from "../assets/images/site10.png";
-import laravel from "../assets/images/laravel.png";
+
 import foods from "../assets/images/foods.png";
 import notes from "../assets/images/notes-app.png";
 import notesApp from "../assets/images/notes-fulllstack.png";
@@ -19,104 +19,89 @@ const callouts = [
     name: "FullStack App",
     description: "nodejs expresjs react tailwindcss fullstack app",
     imageSrc: store,
-    imageAlt: " img",
-    href: "https://firdavs-web-shopping.onrender.com/",
+    hrefDemo: "https://firdavs-web-shopping.onrender.com/",
+    hrefCode: "https://github.com/Firdavs-Normurodov/online-store",
   },
   {
     name: "Notes FullStack App",
     description: "nodejs expresjs react tailwindcss fullstack app",
     imageSrc: notesApp,
-    imageAlt: " img",
-    href: "https://github.com/Firdavs-Normurodov/notes-site",
+    hrefCode: "https://github.com/Firdavs-Normurodov/notes-site",
   },
   {
     name: "Notes App",
     description: "nodejs expresjs backend-application",
     imageSrc: notes,
-    imageAlt:
-      "Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.",
-    href: "https://github.com/Firdavs-Normurodov/notes-app",
+    hrefCode: "https://github.com/Firdavs-Normurodov/notes-app",
   },
   {
     name: "Foods",
     description: "React TailwindCss json-db",
     imageSrc: foods,
-    imageAlt:
-      "Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.",
-    href: "https://foods-chi.vercel.app/",
+    hrefDemo: "https://foods-chi.vercel.app/",
+    hrefCode: "https://github.com/Firdavs-Normurodov/foods",
   },
-  {
-    name: "My blog site",
-    description: "Laravel TailwindCss",
-    imageSrc: laravel,
-    imageAlt:
-      "Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.",
-    href: "https://github.com/Firdavs-Normurodov/my-blog",
-  },
+
   {
     name: "web site",
     description: "ReactJS TailwindCss",
     imageSrc: site1,
-    imageAlt:
-      "Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.",
-    href: "https://react-tailwind-silk.vercel.app/",
+
+    hrefDemo: "https://react-tailwind-silk.vercel.app/",
+    hrefCode: "https://github.com/Firdavs-Normurodov/react-tailwind",
   },
   {
     name: "fullstack site",
     description: "nodejs handlebars",
     imageSrc: site2,
-    imageAlt:
-      "Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.",
-    href: "https://github.com/Firdavs-Normurodov/nodejs-boom-shop",
+    hrefCode: "https://github.com/Firdavs-Normurodov/nodejs-boom-shop",
   },
   {
     name: "vuejs portfolio",
     description: "Vue VueX Bootstrap Js Css",
     imageSrc: site3,
-    imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
-    href: "https://firdavsdev-nu.vercel.app/",
+    hrefDemo: "https://firdavsdev-nu.vercel.app/",
+    hrefCode: "https://github.com/Firdavs-Normurodov/Portfolio-vue",
   },
   {
     name: "Knowledge with eStudy",
     description: "ReactJs TailwindCss Vite",
     imageSrc: site5,
-    imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
-    href: "https://react-vite-tailwind-css.vercel.app/",
+    hrefDemo: "https://react-vite-tailwind-css.vercel.app/",
+    hrefCode: "https://github.com/Firdavs-Normurodov/react-vite-tailwind-css",
   },
   {
     name: "eurolink-cg.com",
     description: "Js Bootsrap Css Hml",
     imageSrc: site6,
-    imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
-    href: "https://eurolink-cg.com/",
+    hrefDemo: "https://eurolink-cg.com/",
   },
   {
     name: "eurolink-cg.com update",
     description: "react vite tailwindcss json-database",
     imageSrc: site10,
-    imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
-    href: "https://eurolink-cg-my.vercel.app/",
+    hrefDemo: "https://eurolink-cg-my.vercel.app/",
+    hrefCode: "https://github.com/Firdavs-Normurodov/eurolink-cg-my",
   },
   {
     name: "Miracle Shop",
     description: "Js Bootstrap Css Html",
     imageSrc: site4,
-    imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
-    href: "https://online-shop-web-site.netlify.app/",
+    hrefDemo: "https://online-shop-web-site.netlify.app/",
+    hrefCode: "https://github.com/Firdavs-Normurodov/online-shop",
   },
   {
     name: "programming lessons",
     description: "Js jQuery Bootstrap Css Htmll",
     imageSrc: site7,
-    imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
-    href: "https://training-courses.netlify.app//",
+    hrefDemo: "https://training-courses.netlify.app/",
+    hrefCode: "https://github.com/Firdavs-Normurodov/training-courses",
   },
   {
     name: "Web Developer",
     description: "Js jQuery Bootstrap Css Html",
     imageSrc: site8,
-    imageAlt: "Collection of four insulated travel bottles on wooden shelf.",
-    href: "https://firdavs-web-dev.netlify.app/",
+    hrefDemo: "https://firdavs-web-dev.netlify.app/",
   },
 ];
 
@@ -128,7 +113,6 @@ export default function Example() {
           <h2 className="text-2xl text-center mb-12 font-bold text-colorT">
             My portfolio
           </h2>
-
           <div className="mt-12 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
             {callouts.map((callout) => (
               <div key={callout.name} className="group relative">
@@ -139,13 +123,28 @@ export default function Example() {
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
-                <h3 className="mt-6 text-sm text-gray-500">
-                  <a href={callout.href} target="blank">
-                    <span className="absolute inset-0" />
-                    {callout.name}
-                  </a>
+                <h3 className="mt-6 mb-5 flex text-sm text-gray-500">
+                  {callout.hrefDemo && (
+                    <a
+                      href={callout.hrefDemo}
+                      target="blank"
+                      className="mr-5 text-green-500 cursor-pointer"
+                    >
+                      demo
+                    </a>
+                  )}
+                  {callout.hrefCode && (
+                    <a
+                      href={callout.hrefCode}
+                      target="blank"
+                      className="text-white cursor-pointer"
+                    >
+                      code
+                    </a>
+                  )}
                 </h3>
                 <p className="text-base font-semibold text-gray-500">
+                  <h2>{callout.name}</h2>
                   {callout.description}
                 </p>
               </div>
